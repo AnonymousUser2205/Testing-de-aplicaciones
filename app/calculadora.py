@@ -1,7 +1,4 @@
-class Calculator:
-    """
-    A simple calculator class to demonstrate basic arithmetic operations.
-    """
+class Calculadora:
 
     def add(self, a, b):
         return a + b
@@ -14,5 +11,5 @@ class Calculator:
 
     def divide(self, a, b):
         if b == 0:
-            raise ValueError("Cannot divide by zero.")
+            raise ValueError("No se puede dividir por cero.")
         return a / b
